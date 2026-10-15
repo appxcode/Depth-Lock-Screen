@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – Depth Lock Screen</title>
+<meta name="description" content="How Depth Lock Screen handles your information.">
+<meta name="color-scheme" content="light dark">
+<style>
+  :root {
+    --bg: #F8F7F2; --card: #FFFFFF; --text: #161616; --muted: #5F5F5A;
+    --line: #E7E4D8; --accent: #F4D23E; --accent-text: #8A6A00;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111111; --card: #1C1C1E; --text: #F2F2EE; --muted: #A3A39C; --line: #2C2C2E; --accent-text: #F4D23E; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 56px; }
+  header { margin-bottom: 28px; }
+  .badge { display: inline-block; background: var(--accent); color: #161616; font-weight: 600;
+           font-size: 13px; padding: 4px 12px; border-radius: 999px; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 14px 0 6px; }
+  .meta { color: var(--muted); font-size: 14px; margin: 0; }
+  h2 { font-size: 20px; margin: 36px 0 10px; padding-top: 4px; }
+  h3 { font-size: 16px; margin: 20px 0 6px; }
+  p, li { color: var(--text); }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  a { color: var(--accent-text); text-underline-offset: 3px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 18px 20px; margin: 16px 0; }
+  .card p:first-child { margin-top: 0; }
+  .card p:last-child { margin-bottom: 0; }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 8px; border-bottom: 1px solid var(--line); }
+  th { font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+  .table-wrap { overflow-x: auto; }
+  .muted { color: var(--muted); }
+  footer { margin-top: 44px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <span class="badge">Depth Lock Screen</span>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Effective date: 16 October 2026 · Developer: appxcode</p>
+</header>
+
+<div class="card">
+  <p><strong>In short:</strong> Depth Lock Screen does not ask you to create an account, does not show ads and
+  does not sell your data. Your notifications, photos, lock code and settings stay on your phone. We use
+  Google Firebase to understand which features are used and to fix crashes.</p>
+</div>
+
+<p>This policy explains what information the Depth Lock Screen app (“the app”, “we”, “us”) uses, why, and the
+choices you have. By using the app you agree to this policy. If you have questions, write to us at
+<a href="mailto:appxcodehelp@gmail.com">appxcodehelp@gmail.com</a>.</p>
+
+<h2>1. Information that stays on your phone</h2>
+<p>The app needs some information to work as a lock screen. It is used only on your device and is
+<strong>never sent to us or to anyone else</strong>.</p>
+<ul>
+  <li><strong>Notifications</strong> – with your permission (Notification access), the app reads your notifications
+  only to show them on the lock screen and to let you open or dismiss them. They are kept in memory while shown
+  and are not saved or uploaded.</li>
+  <li><strong>Music and media playback</strong> – the same permission lets the lock screen show what is playing and
+  control play, pause and skip. This information is not stored or shared.</li>
+  <li><strong>Your PIN or pattern and recovery answer</strong> – if you turn on the app lock, your code and your
+  recovery answer are stored only as a salted, one-way hash (never as plain text). They are excluded from Android
+  backups and never leave your phone.</li>
+  <li><strong>Your own photos</strong> – if you choose a photo as a wallpaper, you pick it with the Android photo
+  picker; only that photo is copied into the app’s private storage. The app never browses your gallery.</li>
+  <li><strong>Depth effect</strong> – to place the clock behind the subject of a wallpaper, the app cuts out the
+  subject using Google ML Kit, which runs <strong>on your device</strong>. The image is not uploaded for this.</li>
+  <li><strong>Settings and favourites</strong> – your clock style, colours, layout, favourites and similar settings
+  are saved on your phone. Android may include them in your own device backup (except the lock code, as above).</li>
+  <li><strong>Sensors</strong> – the gyroscope (for the parallax motion), the proximity sensor (for pocket mode) and
+  battery status (for the lock screen) are read live and are not stored.</li>
+</ul>
+
+<h2>2. Information collected automatically</h2>
+<p>We use Google Firebase services to keep the app working well. These services collect limited technical
+information from the app:</p>
+<div class="table-wrap">
+<table>
+  <tr><th>Service</th><th>What is collected</th><th>Why</th></tr>
+  <tr>
+    <td><strong>Firebase Analytics</strong></td>
+    <td>App usage events (for example: a wallpaper was opened or applied, a favourite was added, the theme was changed,
+      the rating you chose in the app), the chosen clock style, a random app-instance ID, device model, Android version,
+      app version, language and an approximate region (country/city level, derived from the IP address).</td>
+    <td>To understand which features and wallpapers are popular and improve the app.</td>
+  </tr>
+  <tr>
+    <td><strong>Firebase Crashlytics</strong></td>
+    <td>Crash reports and errors: the state of the app when it crashed, recent in-app steps, device model,
+      Android version, app version and a random installation ID.</td>
+    <td>To find and fix crashes and bugs.</td>
+  </tr>
+  <tr>
+    <td><strong>Firebase Remote Config</strong></td>
+    <td>A random app-instance ID and basic device/app details needed to deliver settings.</td>
+    <td>To update content such as banners, categories and links without an app update.</td>
+  </tr>
+</table>
+</div>
+<p>This information does not include your name, phone number, contacts, messages, notifications, photos or lock
+code, and we do not use it to identify you personally. Google processes it as our service provider under the
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a> and the
+<a href="https://firebase.google.com/support/privacy">Firebase privacy information</a>.</p>
+
+<h2>3. Wallpapers and content</h2>
+<p>Wallpapers and app content are downloaded over a secure (HTTPS) connection from our content servers and
+content-delivery networks. Like any website, these servers receive your device’s IP address and basic request
+details to deliver the files. We do not use this to identify you.</p>
+<p>Google Play services may download the on-device ML Kit model used for the depth effect, and may collect
+limited diagnostic information about it as described in Google’s terms.</p>
+
+<h2>4. Permissions and why we ask</h2>
+<ul>
+  <li><strong>Notification access</strong> – to show your notifications and music controls on the lock screen.</li>
+  <li><strong>Display over other apps</strong> – to show the lock screen and keep it on top until you unlock.</li>
+  <li><strong>Notifications</strong> – Android requires a small ongoing notification while the lock screen service runs.</li>
+  <li><strong>Run at startup, foreground service, wake lock, disable keyguard</strong> – to start the lock screen after a
+  restart and show it whenever the screen turns on.</li>
+  <li><strong>Internet and network state</strong> – to download wallpapers and app content.</li>
+  <li><strong>Vibration</strong> – for touch feedback.</li>
+  <li><strong>Camera shortcut and torch</strong> – the lock screen can open your camera app and turn the flashlight
+  on or off. The app itself does not take, see or store pictures.</li>
+</ul>
+<p>You can turn any of these off in your phone’s settings; some lock screen features will then stop working.</p>
+
+<h2>5. Feedback you send us</h2>
+<p>If you choose to send feedback, your email app opens and the message goes to
+<a href="mailto:appxcodehelp@gmail.com">appxcodehelp@gmail.com</a>. We receive your email address and whatever you
+write, and use it only to reply and improve the app.</p>
+
+<h2>6. Sharing</h2>
+<p>We do not sell, rent or trade your information, and the app contains no advertising. Information is shared only
+with the service providers listed above (Google Firebase, Google Play services, content delivery) to run the app,
+or if required by law.</p>
+
+<h2>7. How long information is kept</h2>
+<ul>
+  <li>Information on your phone stays until you delete it, clear the app’s data or uninstall the app.</li>
+  <li>Firebase Analytics data is kept for the retention period set in our Firebase project (user-level data is
+  deleted automatically after that period).</li>
+  <li>Crashlytics crash reports are kept for up to 90 days.</li>
+  <li>Feedback emails are kept only as long as needed to answer you.</li>
+</ul>
+
+<h2>8. Your choices and rights</h2>
+<ul>
+  <li>Revoke permissions at any time in Android Settings.</li>
+  <li>Delete everything stored by the app with <em>Settings → Apps → Depth Lock Screen → Storage → Clear data</em>,
+  or by uninstalling the app.</li>
+  <li>Ask us to access or delete analytics data linked to your app installation, or ask any privacy question, by
+  writing to <a href="mailto:appxcodehelp@gmail.com">appxcodehelp@gmail.com</a>. Depending on where you live
+  (for example under the GDPR or India’s Digital Personal Data Protection Act), you may have further rights, such as
+  correction, objection or complaint to a data protection authority.</li>
+</ul>
+
+<h2>9. Security</h2>
+<p>We use HTTPS for all downloads, store your lock code only as a salted hash, keep it out of backups, and keep
+the app’s files in Android’s private app storage. No method of storage or transfer is completely secure, but we
+work to protect your information. The app lock is an extra layer and does not replace your phone’s own screen lock.</p>
+
+<h2>10. Children</h2>
+<p>The app is not directed to children under 13 and we do not knowingly collect personal information from them.
+If you believe a child has sent us personal information, contact us and we will delete it.</p>
+
+<h2>11. Changes to this policy</h2>
+<p>We may update this policy when the app changes. The new version will be posted on this page with a new
+effective date. Important changes may also be announced in the app.</p>
+
+<h2>12. Contact</h2>
+<p>appxcode<br>
+Email: <a href="mailto:appxcodehelp@gmail.com">appxcodehelp@gmail.com</a></p>
+
+<footer>© 2026 appxcode · Depth Lock Screen</footer>
+</main>
+</body>
+</html>
